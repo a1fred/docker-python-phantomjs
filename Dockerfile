@@ -8,4 +8,4 @@ RUN wget -q -O /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 https://bi
   tar -xjf /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 -C /tmp && \
   rm -f /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 && \
   mv /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64/ /usr/local/share/phantomjs && \
-  ln -s /usr/local/share/phantomjs/bin/phantomjs /usr/local/bin/PHANTOMJS_VERSION
+  ln -s /usr/local/share/phantomjs/bin/phantomjs /usr/local/bin/phantomjs
