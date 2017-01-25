@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.5
 MAINTAINER Dmitry Simonov <demalf@gmail.com>
 
 ENV PHANTOMJS_VERSION 2.1.1
