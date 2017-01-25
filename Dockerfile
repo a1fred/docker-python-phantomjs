@@ -1,8 +1,8 @@
-FROM python:3
+FROM python:3.5
 MAINTAINER Dmitry Simonov <demalf@gmail.com>
 
-ENV PHANTOMJS_VERSION 2.1.1
-ENV PHANTOMJS_PLATFORM linux-x86_64
+ENV PHANTOMJS_VERSION 2.5.0-beta
+ENV PHANTOMJS_PLATFORM linux-ubuntu-trusty-x86_64
 
 RUN wget -q -O /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-${PHANTOMJS_VERSION}-${PHANTOMJS_PLATFORM}.tar.bz2 && \
   tar -xjf /tmp/phantomjs-$PHANTOMJS_VERSION-linux-x86_64.tar.bz2 -C /tmp && \
