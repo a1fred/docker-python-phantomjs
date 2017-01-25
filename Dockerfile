@@ -1,7 +1,7 @@
 FROM python:3
 MAINTAINER Dmitry Simonov <demalf@gmail.com>
 
-ENV PHANTOMJS_VERSION 2.1.1
+ENV PHANTOMJS_VERSION 1.9.8
 ENV PHANTOMJS_PLATFORM linux-x86_64
 
 RUN mkdir -p /srv/var && \
